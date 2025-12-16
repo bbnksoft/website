@@ -1,0 +1,15 @@
+/* topintroslider.css - standalone */
+.top-intro-slider{position:relative; padding:180px 0; background-repeat:no-repeat; background-position:center; background-size:cover}
+.slider-content{max-width:860px; margin:0 auto; padding:12px; text-align:center}
+.slider-title{font-family: poppins, sans-serif;font-size:2rem; color:rgb(40,7,72); margin-bottom:8px}
+.slider-text{font-size:1.5rem; color:#0b0b0b; max-width:720px; margin:0 auto}
+.slider-btn{margin-top:18px; padding:12px 26px; border-radius:50px; border:none; background:#6f1887; color:#fff; font-weight:700; cursor:pointer; transition:transform 180ms}
+.slider-arrow{position:absolute; top:50%; transform:translateY(-50%); background:#fff; border-radius:50%; padding:10px 12px; border:none; box-shadow:0 8px 24px rgba(15,23,42,0.08); cursor:pointer}
+.slider-arrow.left{left:20px}
+.slider-arrow.right{right:20px}
+.slider-dots{display:flex; gap:8px; justify-content:center; margin-top:18px}
+.dot{width:10px; height:10px; border-radius:50%; background:#d6d6d6; border:none; cursor:pointer}
+.dot.active{background:#9e3ffd; transform:scale(1.2)}
+.slider-body-hide{opacity:0; transform:translateY(8px); transition:opacity 300ms, transform 300ms}
+.slider-body-show{opacity:1; transform:none; transition:opacity 400ms, transform 400ms}
+@media (max-width:768px){ .slider-title{font-size:1.5rem} .slider-text{font-size:0.95rem} }

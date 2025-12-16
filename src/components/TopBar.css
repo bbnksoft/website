@@ -1,0 +1,22 @@
+/* topbar.css - standalone */
+.topbar{
+  background:linear-gradient(90deg,#9e3ffd,#733595);
+  color:#ffffff; padding:12px 0; font-size:0.9rem;
+  font-family: poppins, sans-serif;
+}
+.topbar-email {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.topbar-email:hover {
+  text-decoration: underline;
+}
+
+.topbar .container{display:flex; justify-content:space-between; align-items:center}
+.topbar .btn{background:#ffb400; color:#000; border-radius:999px; padding:8px 16px; border:none}
+@media (max-width:768px){ .topbar{padding:10px 0; font-size:0.85rem} }
+
+
+

@@ -1,0 +1,84 @@
+.about-section {
+  padding: 120px 0;
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Heading */
+.about-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #18191a;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+}
+
+/* Top paragraph */
+.about-top-text {
+  max-width: 1100px;
+  margin: 0 auto 50px;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: #555;
+  text-align: justify;
+}
+
+/* Body text */
+.about-text {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #555;
+  text-align: justify;
+  margin-bottom: 18px;
+}
+
+/* Bullet list */
+.about-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 18px;
+}
+
+.about-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.about-list i {
+  font-size: 16px;
+  color: #0b6efd;
+  margin-top: 4px;
+}
+
+/* Button */
+.about-btn {
+  margin-top: 18px;
+  padding: 10px 26px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 2px solid #521168;
+  color: #5c0e90;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.about-btn:hover {
+  background: #610b96;
+  color: #ffffff;
+}
+
+
+.about-tagline {
+  font-size: 1.15rem;     /* Increased from body size */
+  font-weight: 500;
+  color: #444;
+  margin: 14px 0 30px;
+  line-height: 1.6;
+}

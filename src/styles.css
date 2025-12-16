@@ -1,0 +1,23 @@
+:root {
+  --primary: #0d6efd;
+}
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  background: #fff;
+  margin: 0;
+}
+section.py-6 { padding-top: 3rem; padding-bottom: 3rem; }
+.device-mockup img { max-width: 320px; }
+@media (max-width: 767px) {
+  .device-mockup img { max-width: 240px; }
+}
+
+
+/* ONE GLOBAL BACKGROUND FOR ALL SECTIONS EXCEPT CONTACT */
+
+.main-content {
+  background: linear-gradient(180deg, white 0%, rgba(158, 63, 253, 1) 60%);
+  min-height: 100vh;
+  width: 100%;
+}
+

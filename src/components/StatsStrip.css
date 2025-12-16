@@ -1,0 +1,15 @@
+/* statsstrip.css - standalone */
+.stats-strip{padding:64px 0; background:radial-gradient(circle at top left,#3c136b 0%, #74069f 45%, #42434f 100%)}
+.stats-strip-inner{border-radius:999px; padding:32px; background:rgba(255,255,255,0.9); box-shadow:0 18px 40px rgba(15,23,42,0.16); display:grid; grid-template-columns:repeat(4,1fr); gap:12px; align-items:center}
+.stat-item{text-align:center; padding:8px}
+.stat-pill{width:60px; height:6px; border-radius:999px; margin:0 auto 8px; background:linear-gradient(90deg,#9e3ffd,#ffc632)}
+.stat-value{font-size:2.5rem; font-weight:700}
+.stat-label{color:#6b7280; margin-top:6px}
+.stat-sublabel{font-size:0.82rem; color:#9ca3af; margin-top:4px}
+@media (max-width:991px){ .stats-strip-inner{grid-template-columns:repeat(2,1fr); padding:20px} .stat-value{font-size:1.35rem} }
+@media (max-width:576px){ .stats-strip-inner{grid-template-columns:1fr 1fr; padding:12px} .stat-value{font-size:1.15rem} }
+.stats-strip .stat-label {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 500;
+}

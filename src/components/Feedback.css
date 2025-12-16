@@ -1,0 +1,96 @@
+/* ================================
+   FEEDBACK SECTION
+================================ */
+.feedback-section {
+  padding: 120px 0;
+  background: linear-gradient(
+    180deg,
+    #ab6aed 0%,
+    rgba(158, 63, 253, 0.08) 60%
+  );
+  font-family: poppins, sans-serif
+}
+
+.section-subtitle {
+  font-size: 1.35rem;   /* increased size */
+  line-height: 1.5;
+  font-weight: 500;
+  color: #555;
+}
+
+
+/* Card */
+.feedback-card {
+  max-width: 520px;
+  background: #ffffff;
+  padding: 36px;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+/* Form */
+.feedback-form .form-group {
+  margin-bottom: 18px;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.feedback-form input,
+.feedback-form textarea,
+.feedback-form select {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus,
+.feedback-form select:focus {
+  outline: none;
+  border-color: #9e3ffd;
+  box-shadow: 0 0 0 3px rgba(158, 63, 253, 0.12);
+}
+
+/* Button */
+.feedback-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #9e3ffd, #c07aff);
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feedback-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(158, 63, 253, 0.4);
+}
+
+/* Success message */
+.feedback-success h4 {
+  margin-bottom: 8px;
+}
+
+.feedback-success p {
+  color: #555;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .feedback-card {
+    padding: 28px 22px;
+  }
+}

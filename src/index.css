@@ -1,0 +1,65 @@
+:root {
+  --primary: #0d6efd;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* section spacing */
+section.py-6 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* hero illustration */
+.device-mockup img {
+  max-width: 320px;
+}
+
+@media (max-width: 767px) {
+  .device-mockup img {
+    max-width: 240px;
+  }
+}
+
+
+/* Background for the entire page except header */
+body {
+  background: rgba(158, 63, 253, 1); /* Your desired background color */
+}
+
+
+/* Horizontal scrolling container */
+.scroll-wrapper {
+  overflow-x: auto;        /* enable horizontal scroll */
+  overflow-y: hidden;      /* prevent vertical scroll */
+  white-space: nowrap;     /* keep sections side by side */
+  scroll-behavior: smooth; /* smooth scroll effect */
+}
+
+
+
+/* Full page background similar to VertixSoft */
+body {
+  background-color: #f7f7f7; /* Very light gray */
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Each section displayed side-by-side */
+.scroll-wrapper section {
+  display: inline-block;
+  width: 100vw;            /* each section takes full screen width */
+  vertical-align: top;
+}
+
+
+
+
+
+

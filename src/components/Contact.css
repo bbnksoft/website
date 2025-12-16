@@ -1,0 +1,193 @@
+/* ================================
+   CONTACT SECTION
+================================ */
+.contact-section {
+  padding: 120px 0;
+  background: linear-gradient(180deg, white 20%, rgba(158, 63, 253, 0.06) 60%);
+  font-family: poppins, sans-serif;
+}
+
+/* Section Header */
+.contact-header {
+  margin-bottom: 48px;
+}
+
+.contact-header .section-title {
+  margin-bottom: 10px;
+}
+
+.contact-header .section-subtitle {
+  font-size: clamp(1.5rem, 1.2vw, 1.2rem);
+  line-height: 1.8;
+  max-width: 760px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* ================================
+   CONTACT CARDS LAYOUT
+================================ */
+.contact-cards {
+  align-items: stretch;
+}
+
+/* Base Card */
+.contact-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 36px;
+  height: 100%;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.08);
+}
+
+/* ================================
+   LEFT CARD – CONTACT INFO
+================================ */
+.info-card h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.info-card p {
+  color: #555;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.contact-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info-list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.contact-info-list i {
+  color: #9e3ffd;
+  font-size: 1.1rem;
+}
+
+/* ================================
+   RIGHT CARD – CONTACT FORM
+================================ */
+.form-card {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Form title & subtitle */
+.form-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-subtitle {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: 18px;
+}
+
+/* Labels */
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #444;
+}
+
+/* Inputs & textarea */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+  font-family: "Poppins", sans-serif;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background: #fff;
+}
+
+/* Focus state */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #9e3ffd;
+  box-shadow: 0 0 0 3px rgba(158, 63, 253, 0.12);
+}
+
+/* Submit button */
+.contact-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(90deg, #5b2ad6, #9c4df0);
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(158, 63, 253, 0.3);
+}
+
+/* Trust note */
+.form-note {
+  margin-top: 14px;
+  font-size: 0.8rem;
+  color: #777;
+  text-align: center;
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 80px 0;
+  }
+
+  .contact-card {
+    padding: 28px;
+  }
+}
+
+/* Shared description text for both contact cards */
+.info-card p,
+.form-subtitle {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
+@media (max-width: 576px) {
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1rem;
+  }
+}
+
+

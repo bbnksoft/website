@@ -1,0 +1,30 @@
+.site-footer {
+  background: #0a0615;
+  color: #e5e5f5;
+  padding: 50px 0 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  font-family: poppins, sans-serif;
+}
+
+.site-footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.site-footer a {
+  color: #cfc5ff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+}
+
+.footer-logo {
+  width: px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 12px; /* remove this if you want sharp corners */
+}
