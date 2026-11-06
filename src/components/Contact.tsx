@@ -28,7 +28,7 @@ const Contact = () => {
               <ul className="contact-info-list">
                 <li>
                   <i className="bi bi-envelope-fill" />
-                  <span>info@vertixsofttech.com</span>
+                  <span>info@vertixsofttech.in</span>
                 </li>
                 <li>
                   <i className="bi bi-telephone-fill" />

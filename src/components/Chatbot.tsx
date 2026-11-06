@@ -34,7 +34,7 @@ const generateBotReply = (input: string): string => {
   }
 
   if (msg.includes("contact") || msg.includes("email")) {
-    return "You can reach us through the contact form below or email us at info@vertixsofttech.com. Our team usually responds within 24 hours.";
+    return "You can reach us through the contact form below or email us at info@vertixsofttech.in. Our team usually responds within 24 hours.";
   }
 
   return "Thanks for the details 👍 Would you like me to connect you with our team through the contact form?";

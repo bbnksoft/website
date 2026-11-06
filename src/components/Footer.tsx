@@ -43,10 +43,10 @@ const Footer: React.FC = () => {
               <li>
                 <i className="bi bi-envelope-fill me-2" />
                 <a
-                  href="mailto:info@vertixsofttech.com"
+                  href="mailto:info@vertixsofttech.in"
                   className="footer-email"
                 >
-                  info@vertixsofttech.com
+                  info@vertixsofttech.in
                 </a>
               </li>
 
