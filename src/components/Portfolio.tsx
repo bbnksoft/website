@@ -2,8 +2,8 @@ import React, { memo } from "react";
 import "./Portfolio.css";
 
 import EarthImg from "../assets/Earth.png";
-import WeatherImg from "../assets/weather.png";
-import MapsImg from "../assets/maps.png";
+import WeatherImg from "../assets/Weather.png";
+import MapsImg from "../assets/Maps.png";
 
 type Project = {
   title: string;

@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import "./Services.css";
+import "./services.css";
 
 type Service = { title: string; desc: string; icon: string };
 

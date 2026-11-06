@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import MocImage from "../assets/moc.webp";
+import MocImage from "../assets/Moc.webp";
 
 const Hero: React.FC = () => {
   return (
